@@ -1,4 +1,4 @@
-package musialkov.digitalgamesstore.dao;
+package musialkov.digitalgamesstore.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

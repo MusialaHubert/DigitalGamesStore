@@ -1,10 +1,10 @@
 package musialkov.digitalgamesstore.controller;
 
 import lombok.RequiredArgsConstructor;
-import musialkov.digitalgamesstore.dao.AuthenticationRequest;
-import musialkov.digitalgamesstore.dao.AuthenticationResponse;
+import musialkov.digitalgamesstore.dto.AuthenticationRequest;
+import musialkov.digitalgamesstore.dto.AuthenticationResponse;
 import musialkov.digitalgamesstore.service.AuthenticationService;
-import musialkov.digitalgamesstore.dao.RegisterRequest;
+import musialkov.digitalgamesstore.dto.RegisterRequest;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

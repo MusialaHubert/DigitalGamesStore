@@ -1,8 +1,8 @@
 package musialkov.digitalgamesstore.service;
 
-import musialkov.digitalgamesstore.dao.AuthenticationRequest;
-import musialkov.digitalgamesstore.dao.AuthenticationResponse;
-import musialkov.digitalgamesstore.dao.RegisterRequest;
+import musialkov.digitalgamesstore.dto.AuthenticationRequest;
+import musialkov.digitalgamesstore.dto.AuthenticationResponse;
+import musialkov.digitalgamesstore.dto.RegisterRequest;
 
 public interface AuthenticationService {
     AuthenticationResponse register(RegisterRequest request);

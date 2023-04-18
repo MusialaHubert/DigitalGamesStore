@@ -1,9 +1,9 @@
 package musialkov.digitalgamesstore.service;
 
 import lombok.RequiredArgsConstructor;
-import musialkov.digitalgamesstore.dao.AuthenticationRequest;
-import musialkov.digitalgamesstore.dao.AuthenticationResponse;
-import musialkov.digitalgamesstore.dao.RegisterRequest;
+import musialkov.digitalgamesstore.dto.AuthenticationRequest;
+import musialkov.digitalgamesstore.dto.AuthenticationResponse;
+import musialkov.digitalgamesstore.dto.RegisterRequest;
 import musialkov.digitalgamesstore.entity.Role;
 import musialkov.digitalgamesstore.entity.ShopUser;
 import musialkov.digitalgamesstore.repository.UserRepository;

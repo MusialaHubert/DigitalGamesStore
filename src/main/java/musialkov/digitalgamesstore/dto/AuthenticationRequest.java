@@ -1,4 +1,4 @@
-package musialkov.digitalgamesstore.dao;
+package musialkov.digitalgamesstore.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,9 +9,8 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class RegisterRequest {
+public class AuthenticationRequest {
 
-    private String nickname;
     private String email;
     private String password;
 }

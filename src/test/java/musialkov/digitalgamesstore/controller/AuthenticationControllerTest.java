@@ -1,9 +1,9 @@
 package musialkov.digitalgamesstore.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import musialkov.digitalgamesstore.dao.AuthenticationRequest;
-import musialkov.digitalgamesstore.dao.AuthenticationResponse;
-import musialkov.digitalgamesstore.dao.RegisterRequest;
+import musialkov.digitalgamesstore.dto.AuthenticationRequest;
+import musialkov.digitalgamesstore.dto.AuthenticationResponse;
+import musialkov.digitalgamesstore.dto.RegisterRequest;
 import musialkov.digitalgamesstore.service.AuthenticationService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
