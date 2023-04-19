@@ -16,7 +16,7 @@ public class DatabaseInitializer implements CommandLineRunner {
     public void run(String... args) throws Exception {
         String password = passwordEncoder.encode("password");
         String sql = String.format("INSERT INTO shop_user (id, nickname, email, password, role)" +
-                "VALUES (1, 'Musialkov', 'musialkov@gmail.com', '%s' , 'ADMIN')", password);
+                "VALUES (0, 'Musialkov', 'musialkov@gmail.com', '%s' , 'ADMIN')", password);
         jdbcTemplate.update(sql);
     }
 }
